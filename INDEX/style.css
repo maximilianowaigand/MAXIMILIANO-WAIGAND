@@ -1,0 +1,114 @@
+
+
+video {
+        position: fixed;
+        left: 0;
+        top: 0;
+        height:100%;
+        z-index: -1;
+        width: 100%;
+        margin: 0;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        
+      }
+ 
+ .empresa {z-index: -1;;
+          padding: 40px;color: rgb(255, 255, 255);
+          font-size: 95px;
+          display:flex ;
+          justify-content: center;
+        width: 100%;}
+
+.vision {display: flex;
+    justify-content: center;
+    font-size: 30px;
+    padding: 20px;
+    background-image:linear-gradient(rgba(30, 30, 124, 0.516),rgba(29, 29, 194, 0.566));
+}
+
+
+.conteiner-list {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    background-image:linear-gradient(rgba(30, 30, 124, 0.708),rgba(29, 29, 194, 0.708));
+    position: sticky;
+    top: 0;
+    }
+
+    
+    .list :hover {transform: scale(3);transition: all 2s;}
+
+    .productos {color: whitesmoke;}
+
+    .list { 
+        display: flex;
+        justify-content: space-around;
+        margin: 5px;
+        width: 50%;
+        list-style: none; }
+
+    .conteiner-list .list a {color: white; text-decoration: none;}
+
+
+h3 {padding: 40px 10px 0 10px;
+    color: whitesmoke;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.158),rgba(9, 9, 9, 0.519), rgba(0, 0, 0, 0.36)) ;
+    display: flex;
+    justify-content:flex-start;
+font-size: 30px ;}
+
+.nuestros-trabajos {display: flex;
+                    justify-content: center;}
+
+.img-model {width: 100%;
+            display: flex;
+            justify-content: center;
+        ;}
+
+.conteiner-sociales {
+    position: fixed;
+        bottom: 0;
+        right: 10px;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .sociales {
+        display: flex;
+        justify-content: space-between;
+        width: 4%;
+    }
+
+.nombre-empresa {background-color: black;
+    color: white;font-size: 44px;
+     border: 2px solid black;
+     display: flex;
+     justify-content: center;}
+
+.img-fabrica {width: 50%;
+    border: 4px solid black;}
+
+.conteiner-productos {
+    display: grid;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr;
+    gap: 5px 5px;
+    width: 80%;
+  grid-template-areas: 
+    "aberturas complementos puertas"
+    "aberturas complementos puertas"
+    "aberturas pisos pisos"
+}
+
+.aberturas { grid-area: aberturas}
+.pisos { grid-area: pisos;}
+.complementos { grid-area: complementos;}
+.puertas { grid-area: puertas;}
+
+.pyd {height: 100%; width: 100%;}
+
+
+
