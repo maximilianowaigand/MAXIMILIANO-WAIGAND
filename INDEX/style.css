@@ -1,5 +1,6 @@
 
 
+/* VIDEO DE FONDO INDEX*/
 video {
         position: fixed;
         left: 0;
@@ -13,10 +14,12 @@ video {
         background-position: center;
         
       }
+
+/*VIDEO DE FONDO*/
  
  .empresa {z-index: -1;;
           padding: 40px;color: rgb(255, 255, 255);
-          font-size: 95px;
+          font-size: 85px;
           display:flex ;
           justify-content: center;
         width: 100%;}
@@ -29,7 +32,7 @@ video {
 }
 
 
-.conteiner-list {
+/*.conteiner-list {
     padding: 10px;
     margin: 10px;
     display: flex;
@@ -40,7 +43,7 @@ video {
     }
 
     
-    .list :hover {transform: scale(3);transition: all 2s;}
+    .list :hover {transform: scale(3);transition: all 2s;}*/
 
     .productos {color: whitesmoke;}
 
@@ -56,7 +59,7 @@ video {
 
 h3 {padding: 40px 10px 0 10px;
     color: whitesmoke;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.158),rgba(9, 9, 9, 0.519), rgba(0, 0, 0, 0.36)) ;
+    background-color: #50b6ff ;
     display: flex;
     justify-content:flex-start;
 font-size: 30px ;}
@@ -96,7 +99,6 @@ font-size: 30px ;}
     grid-template-rows: 0.5fr 0.5fr 0.5fr;
     grid-template-columns: 0.5fr 0.5fr 0.5fr;
     gap: 5px 5px;
-    width: 80%;
   grid-template-areas: 
     "aberturas complementos puertas"
     "aberturas complementos puertas"
@@ -104,11 +106,13 @@ font-size: 30px ;}
 }
 
 .aberturas { grid-area: aberturas}
-.pisos { grid-area: pisos;}
+.pisos { grid-area: pisos;background-color: black;transition: all 0.5s;}
 .complementos { grid-area: complementos;}
 .puertas { grid-area: puertas;}
 
-.pyd {height: 100%; width: 100%;}
+.pisos:hover {background-color: transparent;}
+
+.pyd {height:100%; width: 100%;}
 
 
 
